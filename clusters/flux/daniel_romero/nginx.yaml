@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: daniel_romero
+  name: daniel-romero
 ---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-deployment
-  namespace: daniel_romero
+  namespace: daniel-romero
   labels:
     app: nginx
 spec:
